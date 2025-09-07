@@ -36,20 +36,15 @@
                 width: 100%;
             }
             .canvas {
-                margin: 0 auto;
                 display: block;
+                margin: 0 auto;
+                max-width: 100%;
+                height: auto;
             }
             img#logo {
-                width: 128px;
-                background-size: cover;
-                border-radius: 200px;
-                box-shadow: 0px 0px 40px rgba(63, 81, 181, 0.72);
-                border: 3px solid #00a0ff;
-                opacity: 1;
-                margin: 0 auto;
-                margin-top: 20px;
-                margin-bottom: 20px;
-                transition: all 1.0s;
+                width: 30vw; /* tự co theo chiều rộng màn hình */
+                max-width: 128px; /* không vượt quá 128px */
+                height: auto;
             }
             #logo:hover {
                 box-shadow: 0 0 10px #fff;
@@ -106,7 +101,7 @@
       </div>
         
     </div>
-    <canvas class="canvas" width="1820" height="905"></canvas>
+    <canvas class="canvas"></canvas>
     <p class="text" style="color: #ed3073;">Đã đươc
     <span id="span_dt_dt"></span><br> quen nhau rùi đấy😘
     </p>
